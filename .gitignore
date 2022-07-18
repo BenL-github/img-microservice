@@ -1,1 +1,3 @@
 ms_env/
+*.jpeg
+.DS_store
