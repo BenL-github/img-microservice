@@ -25,7 +25,7 @@ def resize():
         resized_im.save(result, format="JPEG")
         result = result.getvalue()
         result = base64.b64encode(result)
-
+ 
         # close image 
         resized_im.close()
         status = 200
